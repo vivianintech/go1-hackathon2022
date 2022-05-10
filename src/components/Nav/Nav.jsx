@@ -9,8 +9,8 @@ const Nav = () => {
       <div className="logo">
         <Link to="/">
           <img
-            src="https://res.cloudinary.com/dikrdv4qy/image/upload/v1606439732/deep-tech-heroes-logo-blue-small_g3pny6.png"
-            alt=""
+            src="https://res.cloudinary.com/gohkt/image/upload/v1652185178/go1-hackathon/go1logo_lgqrcr.png"
+            alt="go1-logo"
           ></img>
         </Link>
       </div>
