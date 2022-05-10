@@ -44,8 +44,8 @@ const SignUpForm = () => {
   return (
     <form className="form-wrapper">
       <div className="form-header">
-        <h1>Welcome to Deep Tech Heroes!</h1>
-        <p>Sign up, then become a Hero or a Host, or both!</p>
+        <h1>Welcome to Mentor Market Place!</h1>
+        <p>Sign up, then become a Mentor or a Host, or both!</p>
       </div>
 
       <div className="form-inputs">

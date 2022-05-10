@@ -9,7 +9,7 @@ const BadgeEnthusiast = props => {
     <div>
       <img
         src="https://res.cloudinary.com/flifree/image/upload/v1606565218/Deep%20Tech%20Heroes/deep-tech-heroes-badge-E2-orange_xohrys.png"
-        alt="Deep Tech Heroes Enthusiast Badge Awarded"
+        alt="Enthusiast Badge Awarded"
       />
     </div>
   ) : (

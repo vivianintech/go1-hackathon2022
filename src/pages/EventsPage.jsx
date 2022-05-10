@@ -26,10 +26,10 @@ const EventsPage = () => {
     <div className="page-wrapper">
       <div className="cover_events">
         <img
-          src="https://res.cloudinary.com/dikrdv4qy/image/upload/v1606439814/Background_bdvap8.png"
-          alt=""
+          src="https://res.cloudinary.com/gohkt/image/upload/v1652184996/go1-hackathon/go1banner_qx7ong.jpg"
+          alt="go1-banner"
         ></img>
-        <div class="cover-text">Deep Tech Events</div>
+        <div class="cover-text"></div>
         <Link className="ext-link-1" to="/newevent">
           <button className="page-button" type="button">
             CREATE AN EVENT

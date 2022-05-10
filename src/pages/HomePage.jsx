@@ -17,26 +17,7 @@ const HomePage = () => {
 
       <div className="section1">
         <h1>Our mission</h1>
-        <p>
-          Deep Tech should start and continue to be a diverse and inclusive
-          community.{" "}
-        </p>
-        <p>
-          We believe that diversity of culture, gender, race, ethnicity,
-          religious or spiritual beliefs, sexual orientation and abilities are
-          integral to getting the best out of people and technology.{" "}
-        </p>
-        <p>
-          We want hosts that hold meet-ups, learnings, meetings, courses,
-          accelerators and conferences that cater to all things Deep Tech and
-          all people Deep Tech. Because no one should be left out.{" "}
-        </p>
-        <p>
-          We have created a place where heroes can find event hosts that align
-          with their values and ideals. We want to grow a thriving, welcoming,
-          thoughtful and creative environment where you can be yourself.{" "}
-        </p>
-        <p>Join us. Everybody’s welcome.</p>
+        <p>Please help me think of something</p>
       </div>
 
       <div className="eventCarousel">
@@ -45,13 +26,13 @@ const HomePage = () => {
       </div>
 
       <div className="heroCarousel">
-        <h2>Meet the Heros</h2>
+        <h2>Meet our mentors</h2>
         <HeroCarousel />
       </div>
 
       <div className="section2">
         <div className="hero">
-          <h2>Are you a Hero?</h2>
+          <h2>Are you a Mentor?</h2>
           <Link to="/">
             <img
               className="Hero-img"
@@ -70,7 +51,7 @@ const HomePage = () => {
           </p>
 
           <Link to="/becomehero">
-            <button type="button">Become a HERO</button>
+            <button type="button">Become a Mentor</button>
           </Link>
         </div>
 
@@ -86,10 +67,11 @@ const HomePage = () => {
 
           <p>
             Big event coming up? Little one? In between? It doesn't matter what
-            size or topic we have heroes that will suit! Register as a host then
-            advertise your event and see the available Heroes. Then sit back and
-            wait for the like minded Heroes to apply or you can search the
-            Heroes and reach out if you find someone who is the perfect fit!
+            size or topic we have mentors that will suit! Register as a host
+            then advertise your event and see the available Mentors. Then sit
+            back and wait for the like minded Mentors to apply or you can search
+            the Mentors and reach out if you find someone who is the perfect
+            fit!
           </p>
 
           <Link to="/newevent">

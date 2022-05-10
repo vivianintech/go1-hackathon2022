@@ -73,7 +73,7 @@ const SignInForm = () => {
         </div>
         <p id="password-reset">Forgot Your Password? Reset Password</p>
         <p>
-          New to Deep Tech Heroes? <Link to="/signup">SIGN UP</Link>
+          New to Mentor Marketplace? <Link to="/signup">SIGN UP</Link>
         </p>
         <div className="button-area">
           <button type="submit" onClick={handleSubmit}>

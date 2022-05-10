@@ -11,10 +11,10 @@ const Footer = () => {
         <Link to="/contact">Contact</Link>
       </div>
       <div className="copyright">
-        <p>&copy; Deep Tech Heroes 2020</p>
+        <p>&copy; Go1 Hackathon May 2022</p>
       </div>
       <div className="trade-mark">
-        <Link to="/about">Site created by J-cubed</Link>
+        <Link to="/about">Site created by Awesome Team</Link>
       </div>
     </footer>
   );

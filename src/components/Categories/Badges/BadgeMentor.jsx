@@ -8,7 +8,7 @@ const BadgeMentor = props => {
     <div>
       <img
         src="https://res.cloudinary.com/flifree/image/upload/v1606565219/Deep%20Tech%20Heroes/deep-tech-heroes-badge-M2-orange_bxeo9h.png"
-        alt="Deep Tech Heroes Mentor Badge Awarded"
+        alt="Mentor Badge Awarded"
       />
     </div>
   ) : (

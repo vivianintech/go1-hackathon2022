@@ -8,7 +8,7 @@ const BadgeKeynote = props => {
     <div>
       <img
         src="https://res.cloudinary.com/flifree/image/upload/v1606562882/Deep%20Tech%20Heroes/deep-tech-heroes-badge-K2-orange_swqd2a.png"
-        alt="Deep Tech Heroes Keynote Badge Awarded"
+        alt="Keynote Badge Awarded"
       />
     </div>
   ) : (

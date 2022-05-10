@@ -5,9 +5,9 @@ const ContactPage = () => {
     <div className="contactUs">
       <h1>Contact Us</h1>
       <p>
-        If you have any questions about Deep Tech Heroes, please contact us.
+        If you have any questions about Mentor Marketplace, please contact us.
       </p>
-      <p>Email: crew@deeptechheroes.com</p>
+      <p>Email: crew@go1.com</p>
     </div>
   );
 };
