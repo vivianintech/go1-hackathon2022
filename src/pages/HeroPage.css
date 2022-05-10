@@ -1,0 +1,32 @@
+.page-wrapper {
+    width: 100%;
+}
+
+.hero-wrapper1 {
+    display:flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.hero-image img {
+    width: 400px;
+    height: 340px;
+}
+
+.hero-details {
+    padding-left: 30px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: large;
+}
+
+.page-wrapper h2 {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+.hero-badges {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,66 @@
+.page-wrapper {
+    width: 100%;
+    padding-top: 30px;
+}
+.event-title {
+    padding-top:30px;
+}
+.event-wrapper1 {
+    display:flex;
+    flex-direction: row;
+}
+
+.event-image img {
+    width: 500px;
+    height: 500px;
+    padding-top: 20px;
+}
+
+.event-description {
+    padding-left: 20px;
+    padding-top: 50px;
+    line-height: 30px;
+    font-size: large;
+}
+
+.event-wrapper2 {
+    display:flex;
+    flex-direction: row;
+}
+
+.event-review1 h3 {
+    padding-bottom: 20px;
+}
+.event-review1 p {
+    padding-top: 30px;
+}
+.event-review1 li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.event-review2 {
+    display:flex;
+    flex-direction: column;
+}
+.event-review2 h3 {
+    padding-bottom: 30px;
+}
+.event-review2 p {
+    padding-top: 15px;
+}
+
+.event-rating {
+    padding-right: 100px;
+    padding-left: 0px;
+    line-height: 15px;
+}
+
+.event-rating ul {
+    margin-left: 2%;
+}
+
+
+
+
+

@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+
+/* contact Us page */
+.contactUs {
+    padding-top: 100px;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contactUs p {
+    padding-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Sign in page */
+.signIn {
+    padding-top: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Sign out page */
+.signOut {
+    padding-top: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Sign Up page */
+
+.signUp {
+    padding-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Newevent page */
+
+.newEvent {
+    padding-top: 100px;
 }
+

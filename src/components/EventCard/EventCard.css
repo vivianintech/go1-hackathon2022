@@ -1,0 +1,31 @@
+.cards-wrapper {
+    width: 27%;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 3%;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: transparent;
+}
+
+.ext-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ext-link img {
+    width: 100%;
+    height: 240px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    display: block;
+    object-fit: cover;
+}
+
+.ext-link h3 {
+    justify-self: center;
+    font-size: x-large;
+    text-align: center;
+}
