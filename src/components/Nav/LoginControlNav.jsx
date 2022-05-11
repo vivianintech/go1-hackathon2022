@@ -39,11 +39,11 @@ const LoginControlNav = () => {
     );
   }
   return (
-    <div className="login-wrapper">
-      <Link className="loggin-item" onClick={handleSignUp}>
+    <div>
+      <Link onClick={handleSignUp}>
         Sign Up
       </Link>
-      <Link className="loggin-item" onClick={handleSignin}>
+      <Link onClick={handleSignin}>
         Sign In
       </Link>
     </div>

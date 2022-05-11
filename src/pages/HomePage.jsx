@@ -15,7 +15,7 @@ const HomePage = () => {
         ></img>
       </div>
 
-      <div className="section1">
+      <div className="">
         <h1>Our mission</h1>
         <p>Please help me think of something</p>
       </div>

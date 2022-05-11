@@ -45,7 +45,7 @@ import NewReviewEventPage from './pages/NewReviewEventPage';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div>
         <Nav />
       </div>
       <div>
@@ -163,7 +163,7 @@ function App() {
         <Footer />
       </div>
     </Router>
-  ); 
+  );
 }
 
 export default App;
