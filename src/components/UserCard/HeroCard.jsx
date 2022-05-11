@@ -26,7 +26,7 @@ const HeroCard = props => {
       <Link className="hero-link" to={`/hero/${id}`}>
         <div className="expert-container">
           <div className="expert-img">
-            <img src={image} alt="hero headshot" />
+            <img src={image} alt="hero headshot" style={{objectFit: 'cover'}} />
           </div>
 
           <div className="expertThumbType">

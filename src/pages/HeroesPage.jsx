@@ -62,7 +62,7 @@ const HeroesPage = () => {
               </select>
             </div>
             <div class="magnifying-icon">
-              <i class="fa-solid fa-magnifying-glass"></i>
+              <a href="/heroes"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
           </div>
         </div>
