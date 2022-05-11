@@ -3,6 +3,7 @@ import HeroCard from "../components/UserCard/HeroCard";
 import "./HomePage.css";
 import { EXPERTS, SERVICES } from "../Data/Constants";
 import "./EventsPage.css";
+import "./HeroesPage.css";
 import ServiceCard from "../components/UserCard/ServiceCard";
 
 const HeroesPage = () => {
@@ -66,26 +67,32 @@ const HeroesPage = () => {
           </div>
         </div>
       </div>
-      <div className="page-wrapper">
-        <div>Featured Experts</div>
-        <div className="page-main">
-          {EXPERTS.map((data, key) => {
-            return <HeroCard key={key} heroData={data} />;
-          })}
+      <div className="expert-wrapper-container">
+        <div className="expert-wrapper">
+          <div className="expert-wrapper-feature">Featured Experts</div>
+          <div className="page-main">
+            {EXPERTS.map((data, key) => {
+              return <HeroCard key={key} heroData={data} />;
+            })}
+          </div>
         </div>
 
-        <div>Services</div>
-        <div className="page-main">
-          {SERVICES.map((data, key) => {
-            return <ServiceCard key={key} services={data} />;
-          })}
+        <div className="expert-wrapper">
+          <div className="expert-wrapper-feature">Services</div>
+          <div className="page-main expert-service">
+            {SERVICES.map((data, key) => {
+              return <ServiceCard key={key} services={data} />;
+            })}
+          </div>
         </div>
 
-        <div>Recently Viewed</div>
-        <div className="page-main">
-          {EXPERTS.map((data, key) => {
-            return <HeroCard key={key} heroData={data} />;
-          })}
+        <div className="expert-wrapper">
+          <div className="expert-wrapper-feature">Recently Viewed</div>
+          <div className="page-main">
+            {EXPERTS.map((data, key) => {
+              return <HeroCard key={key} heroData={data} />;
+            })}
+          </div>
         </div>
       </div>
     </>

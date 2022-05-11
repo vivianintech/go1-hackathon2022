@@ -1,51 +1,52 @@
 /* Events, Hosts, Heroes Pages */
 .page-wrapper {
-    width: 100%;
+  width: 100%;
 }
 
 .page-header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    margin-top: 2%;
-    line-height: 200%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 2%;
+  line-height: 200%;
 }
 
 .ext-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 2%;
 }
 
 .page-button {
-    width: 100%;
-    border-radius: 5%;
-    border: 2px solid #043c6c;
-    padding: 14px 40px;
-    background-color: #f9f9f9;
+  width: 100%;
+  border-radius: 5%;
+  border: 2px solid #043c6c;
+  padding: 14px 40px;
+  background-color: #f9f9f9;
 }
 
 .page-button:hover {
-    background-color: #7E7C73;
-    color: #043c6c;
-    border: 3px solid #043c6c;
+  background-color: #7e7c73;
+  color: #043c6c;
+  border: 3px solid #043c6c;
 }
 
 .page-main {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 9%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 9%;
+  padding-bottom: 4%;
 }
 
 .cover_events img {
-    width: 110%;
-    height: 450px;
-    padding-top: 0px;
-    margin-left: -100px;
-    margin-right: -100px;
+  width: 110%;
+  height: 450px;
+  padding-top: 0px;
+  margin-left: -100px;
+  margin-right: -100px;
 }

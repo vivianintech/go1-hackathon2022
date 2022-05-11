@@ -8,10 +8,10 @@ const ServiceCard = props => {
   const name = services.name;
   const image = services.image;
   return (
-    <div className="cards-wrapper">
+    <div className="cards-wrapper wrapper-nobackground">
       <Link className="service" to={`/service/${id}`}>
         <img src={image} alt="service" />
-        <div>{name}</div>
+        <div style={{ paddingLeft: "10%" }}>{name}</div>
       </Link>
     </div>
   );

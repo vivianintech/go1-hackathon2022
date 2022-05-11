@@ -15,25 +15,36 @@ const HeroCard = props => {
 
   return (
     <div className="cards-wrapper">
-      <Link className="ext-link" to={`/hero/${id}`}>
-        <div className="price">
-          <img
-            src="https://res.cloudinary.com/gohkt/image/upload/v1652247827/go1-hackathon/bitcoin-png-bitcoin-logo-transparent-background-11562933997uxok6gcqjp_dxawsz.png"
-            alt="go1coin"
-          />
-          <div id="price">{price} GoCoins</div>
-        </div>
+      <div className="price">
+        <img
+          src="https://res.cloudinary.com/gohkt/image/upload/v1652247827/go1-hackathon/bitcoin-png-bitcoin-logo-transparent-background-11562933997uxok6gcqjp_dxawsz.png"
+          alt="go1coin"
+        />
+        <div id="price">{price} GoCoins</div>
+      </div>
 
+      <Link className="ext-link" to={`/hero/${id}`}>
         <div className="expert-container">
           <img src={image} alt="hero headshot" />
-          <div>
-            <IconThumbsUpActive />
+          <div className="expertThumbType">
+            <div id="expertThumbUp">
+              <IconThumbsUpActive />
+            </div>
+            <button className="btnExpert">{type}</button>
           </div>
-          <div>{type}</div>
         </div>
-        <h3>{name}</h3>
-        <h5>{role}</h5>
-        <h5>{company}</h5>
+
+        <div className="expert-text">
+          <div id="expert-name">
+            <p>{name}</p>
+          </div>
+          <div id="expert-role">
+            <p>{role}</p>
+          </div>
+          <div id="expert-company">
+            <p>{company}</p>
+          </div>
+        </div>
       </Link>
     </div>
   );

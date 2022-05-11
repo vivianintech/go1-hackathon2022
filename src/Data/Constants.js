@@ -8,7 +8,7 @@ export const EXPERTS = [
     type: "Wise Owl",
     likeCount: 101,
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652244206/go1-hackathon/benedict-cumberbatch-doctor-strange_spi0sx.webp",
+      "https://res.cloudinary.com/gohkt/image/upload/v1652253172/go1-hackathon/Screenshot_2022-05-11_at_1.05.37_pm_akdfdw.png",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const EXPERTS = [
     type: "Wise Owl",
     likeCount: 101,
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652244206/go1-hackathon/benedict-cumberbatch-doctor-strange_spi0sx.webp",
+      "https://res.cloudinary.com/gohkt/image/upload/v1652253172/go1-hackathon/Screenshot_2022-05-11_at_1.05.37_pm_akdfdw.png",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const EXPERTS = [
     type: "Wise Owl",
     likeCount: 101,
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652244206/go1-hackathon/benedict-cumberbatch-doctor-strange_spi0sx.webp",
+      "https://res.cloudinary.com/gohkt/image/upload/v1652253172/go1-hackathon/Screenshot_2022-05-11_at_1.05.37_pm_akdfdw.png",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const EXPERTS = [
     type: "Wise Owl",
     likeCount: 101,
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652244206/go1-hackathon/benedict-cumberbatch-doctor-strange_spi0sx.webp",
+      "https://res.cloudinary.com/gohkt/image/upload/v1652253172/go1-hackathon/Screenshot_2022-05-11_at_1.05.37_pm_akdfdw.png",
   },
   {
     id: 5,
@@ -52,19 +52,19 @@ export const EXPERTS = [
     type: "Wise Owl",
     likeCount: 101,
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652244206/go1-hackathon/benedict-cumberbatch-doctor-strange_spi0sx.webp",
+      "https://res.cloudinary.com/gohkt/image/upload/v1652253172/go1-hackathon/Screenshot_2022-05-11_at_1.05.37_pm_akdfdw.png",
   },
-  {
-    id: 6,
-    name: "Tara Hickman",
-    role: ["Product manager"],
-    company: "Go1",
-    price: 35,
-    type: "Wise Owl",
-    likeCount: 101,
-    image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652244206/go1-hackathon/benedict-cumberbatch-doctor-strange_spi0sx.webp",
-  },
+  // {
+  //   id: 6,
+  //   name: "Tara Hickman",
+  //   role: ["Product manager"],
+  //   company: "Go1",
+  //   price: 35,
+  //   type: "Wise Owl",
+  //   likeCount: 101,
+  //   image:
+  //     "https://res.cloudinary.com/gohkt/image/upload/v1652253172/go1-hackathon/Screenshot_2022-05-11_at_1.05.37_pm_akdfdw.png",
+  // },
 ];
 
 export const SERVICES = [
