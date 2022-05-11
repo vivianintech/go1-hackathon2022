@@ -1,44 +1,27 @@
-/* .hero-card {
-  width: 100%;
-  border: 1px solid black;
-  box-shadow: 0px 0px 5px gray;
-  background: #f0f0f0;
-  font-family: "Tahoma", sans-serif;
+.hero-container {
+  width: 15%;
+  background-color: #8c9597;
+  margin-right: 2%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  font-family: "Manrope", sans-serif;
 }
 
-.hero-card Link h3 {
-  justify-self: center;
-}
-
-.hero-card:hover {
-  box-shadow: 0px 0px 5px black;
-} */
-
-.price {
+.price-container {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  margin-left: 8%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.price img {
-  width: 10%;
-  height: 10%;
-  margin-right: 5%;
+.price-container img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 #price {
   color: white;
-}
-
-.expert-container {
-  position: relative;
-}
-
-.expert-container img {
-  max-width: 100%;
-  max-height: 100%;
-  width: 150px;
-  height: 150px;
 }
 
 .expertThumbType {
@@ -51,14 +34,13 @@
   width: 95%;
 }
 
-.btnExpert {
-  background: black;
-  color: white;
-  font-size: small;
-  font-weight: 300;
-  padding: 2px;
-  height: 20px;
-  margin-bottom: 8px;
+.expert-container {
+  position: relative;
+}
+
+.expert-img img {
+  width: 100%;
+  max-height: 150px;
 }
 
 .expert-text {
@@ -66,20 +48,48 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  color: black;
 }
 
 #expert-name {
-  font-size: 20px;
-  height: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+  line-height: 3%;
 }
 
-#expert-role {
-  font-size: 12px;
-  font-weight: 300;
-}
-
+#expert-role,
 #expert-company {
-  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  font-size: small;
   font-weight: 300;
+  line-height: 2%;
+}
+
+.hero-link {
+  padding: 0;
+}
+
+.btnExpert {
+  background: black;
+  color: white;
+  font-size: small;
+  font-weight: 300;
+  padding: 2px;
+  height: 20px;
+  width: 40%;
+  margin-bottom: 8px;
+}
+
+#expertThumbUp {
+  padding-left: 7%;
+}
+
+.wrapper-nobackground img {
+  width: 160px;
+}
+
+.wrapper-nobackground {
+  margin-left: 4%;
 }

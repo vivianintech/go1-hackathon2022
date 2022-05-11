@@ -1,11 +1,26 @@
+.expert-wrapper-container {
+  margin: auto;
+}
 .expert-wrapper {
-  margin-bottom: 2%;
-  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.expert-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .expert-wrapper-feature {
-  margin-left: 9%;
-  margin-bottom: 2%;
-  margin-top: 2%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-size: large;
   font-weight: bold;
+}
+
+.expert-service {
+  display: flex;
+  flex-direction: row;
 }
