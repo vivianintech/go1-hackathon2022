@@ -1,18 +1,26 @@
-
 @media screen and (min-width: 501px) {
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 18%;
-    }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20vh;
+    margin-left: -8%;
+    margin-right: -8%;
+    margin-bottom: -8%;
+    padding-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaf0f6;
+  }
+
+  .footer-comp {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 500px) {
-    footer {
-        display: flex;
-        flex-direction: row;
-        /* justify-content: space-between; */
-        margin-left: 18%;
-    }
+  footer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 18%;
+  }
 }
-

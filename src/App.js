@@ -1,46 +1,45 @@
 // test
-import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Nav from './components/Nav/Nav';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
-import EventPage from './pages/EventPage';
-import NotFound from './pages/NotFoundPage';
-import EventsPage from './pages/EventsPage';
-import KeynoteEventsPage from './pages/KeynoteEventsPage';
-import FacilitatorEventsPage from './pages/FacilitatorEventsPage';
-import MentorEventsPage from './pages/MentorEventsPage';
-import ExpertEventsPage from './pages/ExpertEventsPage';
-import EnthusiastEventsPage from './pages/EnthusiastEventsPage';
-import IntimateEventsPage from './pages/IntimateEventsPage';
-import SmallEventsPage from './pages/SmallEventsPage';
-import MediumEventsPage from './pages/MediumEventsPage';
-import LargeEventsPage from './pages/LargeEventsPage';
-import VeryLargeEventsPage from './pages/VeryLargeEventsPage';
-import HugeEventsPage from './pages/HugeEventsPage';
-import UserPage from './pages/UserPage';
-import UsersPage from './pages/UsersPage';
-import HeroPage from './pages/HeroPage';
-import HeroesPage from './pages/HeroesPage';
-import HostPage from './pages/HostPage';
-import HostsPage from './pages/HostsPage';
-import SignUpPage from './pages/SignUpPage';
-import SignInPage from './pages/SignInPage';
-import SignOutPage from './pages/SignOutPage';
-import BecomeHeroPage from './pages/BecomeHeroPage';
-import BecomeHostPage from './pages/BecomeHostPage';
-import NewEventPage from './pages/NewEventPage';
-import UnauthPage from './pages/UnauthPage';
-import HomePage from './pages/HomePage';
-import Footer from './components/Nav/Footer';
-import ApplicationsPage from './pages/ApplicationsPage';
-import ApplicationPage from './pages/ApplicationPage';
-import NewApplicationForm from './components/Forms/NewApplicationForm';
-import AssessApplForm from './components/Forms/AssessApplForm';
-import ConfirmApplicationPage from './pages/ConfirmApplicationPage';
-import NewReviewEventPage from './pages/NewReviewEventPage';
-
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Nav from "./components/Nav/Nav";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import EventPage from "./pages/EventPage";
+import NotFound from "./pages/NotFoundPage";
+import EventsPage from "./pages/EventsPage";
+import KeynoteEventsPage from "./pages/KeynoteEventsPage";
+import FacilitatorEventsPage from "./pages/FacilitatorEventsPage";
+import MentorEventsPage from "./pages/MentorEventsPage";
+import ExpertEventsPage from "./pages/ExpertEventsPage";
+import EnthusiastEventsPage from "./pages/EnthusiastEventsPage";
+import IntimateEventsPage from "./pages/IntimateEventsPage";
+import SmallEventsPage from "./pages/SmallEventsPage";
+import MediumEventsPage from "./pages/MediumEventsPage";
+import LargeEventsPage from "./pages/LargeEventsPage";
+import VeryLargeEventsPage from "./pages/VeryLargeEventsPage";
+import HugeEventsPage from "./pages/HugeEventsPage";
+import UserPage from "./pages/UserPage";
+import UsersPage from "./pages/UsersPage";
+import HeroPage from "./pages/HeroPage";
+import HeroesPage from "./pages/HeroesPage";
+import HostPage from "./pages/HostPage";
+import HostsPage from "./pages/HostsPage";
+import SignUpPage from "./pages/SignUpPage";
+import SignInPage from "./pages/SignInPage";
+import SignOutPage from "./pages/SignOutPage";
+import BecomeHeroPage from "./pages/BecomeHeroPage";
+import BecomeHostPage from "./pages/BecomeHostPage";
+import NewEventPage from "./pages/NewEventPage";
+import UnauthPage from "./pages/UnauthPage";
+import HomePage from "./pages/HomePage";
+import Footer from "./components/Nav/Footer";
+import ApplicationsPage from "./pages/ApplicationsPage";
+import ApplicationPage from "./pages/ApplicationPage";
+import NewApplicationForm from "./components/Forms/NewApplicationForm";
+import AssessApplForm from "./components/Forms/AssessApplForm";
+import ConfirmApplicationPage from "./pages/ConfirmApplicationPage";
+import NewReviewEventPage from "./pages/NewReviewEventPage";
 
 function App() {
   return (
@@ -150,18 +149,15 @@ function App() {
             <NewApplicationForm />
           </Route>
           <Route path="/confirmapplication">
-          <ConfirmApplicationPage />
+            <ConfirmApplicationPage />
           </Route>
           <Route path="/" exact>
             <HomePage />
           </Route>
-          <Route component={NotFound} >
-        </Route>
-
+          <Route component={NotFound}></Route>
         </Switch>
-
-        <Footer />
       </div>
+      <Footer />
     </Router>
   );
 }
