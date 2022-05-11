@@ -67,10 +67,11 @@ const HeroesPage = () => {
           </div>
         </div>
       </div>
+
       <div className="expert-wrapper-container">
         <div className="expert-wrapper">
           <div className="expert-wrapper-feature">Featured Experts</div>
-          <div className="page-main">
+          <div className="expert-flex">
             {EXPERTS.map((data, key) => {
               return <HeroCard key={key} heroData={data} />;
             })}
@@ -79,7 +80,7 @@ const HeroesPage = () => {
 
         <div className="expert-wrapper">
           <div className="expert-wrapper-feature">Services</div>
-          <div className="page-main expert-service">
+          <div className="expert-service">
             {SERVICES.map((data, key) => {
               return <ServiceCard key={key} services={data} />;
             })}
@@ -88,7 +89,7 @@ const HeroesPage = () => {
 
         <div className="expert-wrapper">
           <div className="expert-wrapper-feature">Recently Viewed</div>
-          <div className="page-main">
+          <div className="expert-flex">
             {EXPERTS.map((data, key) => {
               return <HeroCard key={key} heroData={data} />;
             })}

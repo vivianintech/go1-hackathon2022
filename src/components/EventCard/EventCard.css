@@ -1,15 +1,11 @@
-.cards-wrapper {
+/* .cards-wrapper {
   width: 12%;
   margin-right: 2%;
   height: 80%;
   background-color: #8c9597;
   align-items: center;
   justify-content: center;
-}
-
-.wrapper-nobackground {
-  background-color: transparent !important;
-}
+} */
 
 .ext-link {
   display: flex;

@@ -14,18 +14,21 @@ const HeroCard = props => {
   const type = heroData.type;
 
   return (
-    <div className="cards-wrapper">
-      <div className="price">
+    <div className="hero-container">
+      <div className="price-container">
         <img
-          src="https://res.cloudinary.com/gohkt/image/upload/v1652247827/go1-hackathon/bitcoin-png-bitcoin-logo-transparent-background-11562933997uxok6gcqjp_dxawsz.png"
+          src="https://res.cloudinary.com/gohkt/image/upload/v1652264024/go1-hackathon/Bitcoin_swhflc.svg"
           alt="go1coin"
         />
         <div id="price">{price} GoCoins</div>
       </div>
 
-      <Link className="ext-link" to={`/hero/${id}`}>
+      <Link className="hero-link" to={`/hero/${id}`}>
         <div className="expert-container">
-          <img src={image} alt="hero headshot" />
+          <div className="expert-img">
+            <img src={image} alt="hero headshot" />
+          </div>
+
           <div className="expertThumbType">
             <div id="expertThumbUp">
               <IconThumbsUpActive />
