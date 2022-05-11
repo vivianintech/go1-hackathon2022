@@ -1,11 +1,8 @@
-import { Theme, View } from "@go1d/go1d";
-import React, { useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
-  const { colors } = useContext(Theme);
-
   return (
     <footer>
       <div>
