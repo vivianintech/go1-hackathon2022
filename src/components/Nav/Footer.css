@@ -17,10 +17,3 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 500px) {
-  footer {
-    display: flex;
-    flex-direction: row;
-    margin-left: 18%;
-  }
-}

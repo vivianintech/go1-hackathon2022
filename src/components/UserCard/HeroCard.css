@@ -1,15 +1,35 @@
-.hero-card {
-    width: 100%;
-    border: 1px solid black;
-    box-shadow: 0px 0px 5px gray;
-    background: #f0f0f0;
-    font-family: 'Tahoma', sans-serif;
+/* .hero-card {
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px gray;
+  background: #f0f0f0;
+  font-family: "Tahoma", sans-serif;
 }
 
 .hero-card Link h3 {
-    justify-self: center;
+  justify-self: center;
 }
 
 .hero-card:hover {
-    box-shadow: 0px 0px 5px black;
+  box-shadow: 0px 0px 5px black;
+} */
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price img {
+  width: 10%;
+  height: 10%;
+  margin-right: 5%;
+}
+
+.expert-container img {
+  width: 100%;
+}
+
+#price {
+  color: white;
 }
