@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 
 const SignInForm = () => {
@@ -9,8 +9,6 @@ const SignInForm = () => {
   };
   const [credentials, setCredentials] = useState(initialCredentials);
 
-  const history = useHistory();
-
   const handleChange = e => {
     const { id, value } = e.target;
     setCredentials(prevCredentials => ({
@@ -19,31 +17,11 @@ const SignInForm = () => {
     }));
   };
 
-  const postData = async () => {
-    const response = await fetch(
-      `${process.env.REACT_APP_API_URL}api-token-auth/`,
-      {
-        method: "post",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(credentials),
-      },
-    );
-    return response.json();
-  };
+  const history = useHistory();
 
-  const handleSubmit = e => {
-    e.preventDefault();
-    if (credentials.username && credentials.password) {
-      postData().then(response => {
-        window.localStorage.setItem("token", response.token);
-        window.localStorage.setItem("user", credentials.username);
-        history.push("/events");
-        window.location.reload(true);
-      });
-    }
-  };
+  const handleSubmit = useCallback(() => {
+    history.push("/");
+  }, [history]);
 
   return (
     <form className="form-wrapper">

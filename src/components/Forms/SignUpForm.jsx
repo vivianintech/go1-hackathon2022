@@ -1,13 +1,13 @@
 import React, { useCallback, useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const SignUpForm = () => {
   const initialUserData = {
     username: "",
     password: "",
     email: "",
-    first_name: "Eli",
-    last_name: "Eli2",
+    first_name: "",
+    last_name: "",
   };
   const [user, setNewUser] = useState(initialUserData);
 
@@ -22,20 +22,9 @@ const SignUpForm = () => {
 
   const history = useHistory();
 
-  const postData = async () => {
-    const response = await fetch(`${process.env.REACT_APP_API_URL}users/`, {
-      method: "post",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(user),
-    });
-    return response.json();
-  };
-
   const handleSubmit = useCallback(() => {
-    window.location.replace("about");
-  }, []);
+    history.push("/about");
+  }, [history]);
 
   return (
     <form className="form-wrapper">
