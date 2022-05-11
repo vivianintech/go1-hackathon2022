@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import LoginControlNav from "./LoginControlNav";
+
 
 const Ul = styled.ul`
-  list-style: none;
+  list-style: none;F
   display: flex;
   flex-flow: row nowrap;
 
@@ -40,29 +40,14 @@ const Ul = styled.ul`
 
 const RightNav = ({ open }) => {
   return (
-    <Ul open={open}>
       <div className="nav-middle">
-        <li>
           <Link to="/">Home</Link>
-        </li>
-        <li>
           <Link to="/events">Events</Link>
-        </li>
-        <li>
           <Link to="/heroes">Mentors</Link>
-        </li>
-        <li>
           <Link to="/hosts">Hosts</Link>
-        </li>
-        <li>
           <Link to="/contact">Contact Us</Link>
-        </li>
       </div>
 
-      <li>
-        <LoginControlNav />
-      </li>
-    </Ul>
   );
 };
 
