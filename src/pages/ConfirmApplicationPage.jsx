@@ -12,7 +12,8 @@ const ConfirmApplicationPage = () => {
       <p>Your application has been received.</p>
       <p>Our team will be in touch soon to discuss the finer details.</p>
       <p>
-        Encourage your friends and colleagues to become Mentor Market Place too.
+        Encourage your friends and colleagues to become Go1's Expert Marketplace
+        too.
       </p>
       <p>Share the event on Facebook, Twitter or LinkedIn.</p>
       <p>

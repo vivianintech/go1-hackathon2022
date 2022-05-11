@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import { useHistory } from "react-router-dom";
 
 const SignUpForm = () => {
@@ -33,19 +33,15 @@ const SignUpForm = () => {
     return response.json();
   };
 
-  const handleSubmit = e => {
-    e.preventDefault();
-    postData().then(response => {
-      window.localStorage.setItem("username", response.username);
-      history.push("/signin");
-    });
-  };
+  const handleSubmit = useCallback(() => {
+    window.location.replace("about");
+  }, []);
 
   return (
     <form className="form-wrapper">
       <div className="form-header">
-        <h1>Welcome to Mentor Market Place!</h1>
-        <p>Sign up, then become a Mentor or a Host, or both!</p>
+        <h1>Welcome to Go1's Expert Marketplace</h1>
+        <p>Sign up, then become a Mentor</p>
       </div>
 
       <div className="form-inputs">
@@ -84,7 +80,7 @@ const SignUpForm = () => {
       </div>
       <div className="form-confirm">
         <h2>
-          Please confirm your details and click "Submit" to create an account
+          Please confirm your details and click "Sign Up" to create an account
         </h2>
         <div className="form-confirm-details">
           <p>Username: {user.username}</p>
@@ -92,9 +88,7 @@ const SignUpForm = () => {
           <p>Email: {user.email}</p>
         </div>
         <div className="button-area">
-          <button type="submit" onClick={handleSubmit}>
-            SIGN UP
-          </button>
+          <button onClick={handleSubmit}>SIGN UP</button>
         </div>
       </div>
     </form>
