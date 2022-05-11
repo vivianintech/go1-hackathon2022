@@ -8,7 +8,7 @@ export const EXPERTS = [
     type: "Wise Owl",
     likeCount: 101,
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652244206/go1-hackathon/benedict-cumberbatch-doctor-strange_spi0sx.webp",
+      "https://storage.googleapis.com/mentorplace-prod-assets/images/12mDXcKs23hiAZTfTcPKxlXVxWTUZRG0HfQpiNfM.png",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const EXPERTS = [
     type: "Wise Owl",
     likeCount: 101,
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652253172/go1-hackathon/Screenshot_2022-05-11_at_1.05.37_pm_akdfdw.png",
+      "https://storage.googleapis.com/mentorplace-prod-assets/images/12mDXcKs23hiAZTfTcPKxlXVxWTUZRG0HfQpiNfM.png",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const EXPERTS = [
     type: "Wise Owl",
     likeCount: 101,
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652253172/go1-hackathon/Screenshot_2022-05-11_at_1.05.37_pm_akdfdw.png",
+      "https://storage.googleapis.com/mentorplace-prod-assets/images/12mDXcKs23hiAZTfTcPKxlXVxWTUZRG0HfQpiNfM.png",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const EXPERTS = [
     type: "Wise Owl",
     likeCount: 101,
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652253172/go1-hackathon/Screenshot_2022-05-11_at_1.05.37_pm_akdfdw.png",
+      "https://storage.googleapis.com/mentorplace-prod-assets/images/12mDXcKs23hiAZTfTcPKxlXVxWTUZRG0HfQpiNfM.png",
   },
   {
     id: 5,
