@@ -12,7 +12,7 @@
     margin-top: 2%;
     line-height: 200%;
 }
- 
+
 .ext-link {
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
     background-color: #7E7C73;
     color: #043c6c;
     border: 3px solid #043c6c;
-} 
+}
 
 .page-main {
     width: 100%;
@@ -48,8 +48,4 @@
     padding-top: 0px;
     margin-left: -100px;
     margin-right: -100px;
-}
-
-.cover-text {
-    color: white;
 }
