@@ -1,5 +1,5 @@
 .hero-container {
-  width: 15%;
+  width: 10%;
   background-color: #8c9597;
   margin-right: 2%;
   padding-left: 0.5%;
@@ -74,7 +74,7 @@
 .btnExpert {
   background: #22292a;
   color: white;
-  font-size: small;
+  font-size: x-small;
   font-weight: 300;
   padding: 2px;
   height: 20px;
@@ -87,7 +87,7 @@
 }
 
 .wrapper-nobackground img {
-  width: 160px;
+  width: 120px;
 }
 
 .wrapper-nobackground {
