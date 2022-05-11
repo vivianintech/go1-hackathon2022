@@ -4,7 +4,6 @@
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .navbar {
@@ -17,10 +16,11 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: #797979;
   font-weight: bold;
-  padding: 0 6px;
+  padding: 0 12px;
 }
+
 
 a:hover {
   color: #b9b9b9;
