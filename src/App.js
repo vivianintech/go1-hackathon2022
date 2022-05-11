@@ -45,9 +45,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Nav />
-      </div>
-      <div>
         <Switch>
           <Route path="/about">
             <AboutPage />
@@ -104,6 +101,7 @@ function App() {
             <HeroPage />
           </Route>
           <Route path="/heroes">
+            <Nav afterSignedIn={true}/>
             <HeroesPage />
           </Route>
           <Route path="/host/:id">
@@ -119,9 +117,11 @@ function App() {
             <BecomeHostPage />
           </Route>
           <Route path="/signup">
+             <Nav />
             <SignUpPage />
           </Route>
           <Route path="/signin">
+            <Nav />
             <SignInPage />
           </Route>
           <Route path="/signout">
@@ -152,6 +152,7 @@ function App() {
             <ConfirmApplicationPage />
           </Route>
           <Route path="/" exact>
+            <Nav />
             <HomePage />
           </Route>
           <Route component={NotFound}></Route>
