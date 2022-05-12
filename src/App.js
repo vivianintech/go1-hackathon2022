@@ -13,6 +13,15 @@ import SignUpPage from "./pages/SignUpPage";
 import SignInPage from "./pages/SignInPage";
 import HomePage from "./pages/HomePage";
 import Footer from "./components/Nav/Footer";
+import EmailMatch from "./pages/EmailMatch";
+import EmailReview from "./pages/EmailReview";
+import LearnerToMentor from "./pages/LearnerToMentor";
+import ProfileUpdated from "./pages/ProfileUpdated";
+import UpdateProfile from "./pages/UpdateProfile";
+import UploadVideo from "./pages/UploadVideo";
+import VideoUploadedSuccess from "./pages/VideoUploadedSuccess";
+import RecordYourIntro from "./pages/RecordYourIntro";
+
 
 function App() {
   return (
@@ -49,6 +58,30 @@ function App() {
           <Route path="/" exact>
             <Nav />
             <HomePage />
+          </Route>
+          <Route path="/recordyourintro" exact>
+            <RecordYourIntro />
+          </Route>
+          <Route path="/uploadvideo" exact>
+            <UploadVideo />
+          </Route>
+          <Route path="/videouploadedsuccess" exact>
+            <VideoUploadedSuccess />
+          </Route>
+          <Route path="/updateprofile" exact>
+            <UpdateProfile />
+          </Route>
+          <Route path="/profileupdated" exact>
+            <ProfileUpdated />
+          </Route>
+          <Route path="/emailmatch" exact>
+            <EmailMatch />
+          </Route>
+          <Route path="/emailreview" exact>
+            <EmailReview />
+          </Route>
+          <Route path="/learnertomentor" exact>
+            <LearnerToMentor />
           </Route>
           <Route component={NotFound}></Route>
         </Switch>
