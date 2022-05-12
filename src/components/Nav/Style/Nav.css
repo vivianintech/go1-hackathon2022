@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: 8px 0px;
+  padding: 16px 0px;
 }
 
 .navbar a {
@@ -12,6 +12,10 @@
   color: #797979;
   font-weight: bold;
   padding: 0 12px;
+}
+
+.nav-middle {
+  display: flex;
 }
 
 a {
