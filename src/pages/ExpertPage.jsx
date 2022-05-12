@@ -5,7 +5,7 @@ import BadgeExpert from "../components/Categories/Badges/BadgeExpert";
 import BadgeMentor from "../components/Categories/Badges/BadgeMentor";
 import BadgeFacilitator from "../components/Categories/Badges/BadgeFacilitator";
 import BadgeKeynote from "../components/Categories/Badges/BadgeKeynote";
-import "./HeroPage.css";
+import "./ExpertPage.css";
 import HeroAge from "../components/Filters/Hero/HeroAge";
 import HasYellowCard from "../components/Filters/Hero/HasYellowCard";
 import HasBlueCard from "../components/Filters/Hero/HasBlueCard";
@@ -13,7 +13,7 @@ import IsVirtual from "../components/Filters/Hero/IsVirtual";
 import IsPaidPreferred from "../components/Filters/Hero/IsPaidPreferred";
 import HasDisability from "../components/Filters/Hero/HasDisability";
 
-const HeroPage = () => {
+const ExpertPage = () => {
   const initialHeroData = {
     id: window.localStorage.getItem("id"),
     first_name: "",
@@ -44,7 +44,7 @@ const HeroPage = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_API_URL}users/hero/${id}/`)
+    fetch(`${process.env.REACT_APP_API_URL}users/expert/${id}/`)
       .then(results => {
         return results.json();
       })
@@ -102,4 +102,4 @@ const HeroPage = () => {
   );
 };
 
-export default HeroPage;
+export default ExpertPage;

@@ -23,10 +23,14 @@ const HeroCard = props => {
         <div id="price">{price} GoCoins</div>
       </div>
 
-      <Link className="hero-link" to={`/hero/${id}`}>
+      <Link className="hero-link" to={`/experts/${id}`}>
         <div className="expert-container">
           <div className="expert-img">
-            <img src={image} alt="hero headshot" style={{objectFit: 'cover'}} />
+            <img
+              src={image}
+              alt="hero headshot"
+              style={{ objectFit: "cover" }}
+            />
           </div>
 
           <div className="expertThumbType">
