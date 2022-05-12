@@ -9,7 +9,7 @@ const Nav = props => {
   return (
     <div className="navbar">
       <div style={{ display: "flex" }}>
-        <Link to="/">
+        <Link to="/experts">
           <img
             src="https://res.cloudinary.com/gohkt/image/upload/v1652185178/go1-hackathon/go1logo_lgqrcr.png"
             alt="go1-logo"
