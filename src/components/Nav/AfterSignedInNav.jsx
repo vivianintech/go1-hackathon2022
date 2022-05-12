@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 const AfterSignedInNav = () => {
   return (
     <div style={{ display: "flex", alignItems: "center" }}>
-      <div style={{ fontSize: "16px", paddingRight: "8px" }}>
-        <i class="fa-brands fa-bitcoin"></i> 10 GoCoins
+      <img src="https://res.cloudinary.com/dyr0u2nqe/image/upload/v1652346639/goCoin_cg8cxf.png" alt="go coin" style={{width: '30px'}}/>
+      <div style={{ fontSize: "16px", fontWeight:'bold', paddingRight: "8px", color: "#114954" }}>
+        100
       </div>
       <Link to="/experts" style={{ fontSize: "20px" }}>
         <i class="fa-solid fa-gear"></i>

@@ -85,10 +85,12 @@
 }
 
 #expertThumbUp {
-  margin-left: 16px;
+  margin-left: 32px;
   padding: 4px;
   border-radius: 4px;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .wrapper-nobackground img {
@@ -101,7 +103,7 @@
 .service-wrapper{
   display: flex;
   align-items: center;
-  padding: 16px 16px;
+  padding: 16px 10px;
   border-radius: 16px;
   margin-right: 32px;
 }
