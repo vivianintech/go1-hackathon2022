@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useCallback, useContext } from "react";
 import {
   ButtonFilled,
   ButtonMinimal,
@@ -10,10 +10,16 @@ import {
 import { EXPERTS } from "../../Data/Constants";
 import IconVideo from "@go1d/go1d/build/components/Icons/Video";
 import IconCalendar from "@go1d/go1d/build/components/Icons/Calendar";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const ExpertTopDesc = () => {
   const { colors } = useContext(Theme);
   const initialData = EXPERTS[0];
+  const history = useHistory();
+  const handleClick = useCallback(() => {
+    window.localStorage.clear("");
+    history.push("/recordyourintro");
+  }, []);
 
   return (
     <View
@@ -53,7 +59,12 @@ const ExpertTopDesc = () => {
           marginY={6}
           width="40%"
         >
-          <ButtonFilled color="accent" marginRight={4} width="55%">
+          <ButtonFilled
+            color="accent"
+            marginRight={4}
+            width="55%"
+            onClick={handleClick}
+          >
             <View display={"flex"} flexDirection="row">
               <IconVideo marginRight={3} />
               <Text fontSize={0}>Record Your Intro</Text>
