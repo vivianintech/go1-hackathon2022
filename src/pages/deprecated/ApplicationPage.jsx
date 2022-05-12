@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import IsAccepted from "../components/Filters/Application/IsAccepted";
-import IsAssessed from "../components/Filters/Application/IsAssessed";
-import ApplyKeynote from "../components/Filters/Application/ApplyKeynote";
-import ApplyFacilitator from "../components/Filters/Application/ApplyFacilitator";
-import ApplyMentor from "../components/Filters/Application/ApplyMentor";
-import ApplyExpert from "../components/Filters/Application/ApplyExpert";
-import ApplyEnthusiast from "../components/Filters/Application/ApplyEnthusiast";
+import IsAccepted from "../../components/Filters/Application/IsAccepted";
+import IsAssessed from "../../components/Filters/Application/IsAssessed";
+import ApplyKeynote from "../../components/Filters/Application/ApplyKeynote";
+import ApplyFacilitator from "../../components/Filters/Application/ApplyFacilitator";
+import ApplyMentor from "../../components/Filters/Application/ApplyMentor";
+import ApplyExpert from "../../components/Filters/Application/ApplyExpert";
+import ApplyEnthusiast from "../../components/Filters/Application/ApplyEnthusiast";
 
 const ApplicationPage = () => {
   const eventName = window.localStorage.getItem("eventName");

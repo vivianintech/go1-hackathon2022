@@ -1,5 +1,5 @@
 import React from "react";
-import BecomeHostForm from "../components/Forms/BecomeHostForm";
+import BecomeHostForm from "../../components/Forms/BecomeHostForm";
 
 const BecomeHostPage = () => {
   return <BecomeHostForm />;

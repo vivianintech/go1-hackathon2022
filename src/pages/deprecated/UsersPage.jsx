@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import UserCard from "../components/UserCard/UserCard";
+import UserCard from "../../components/UserCard/deprecated/UserCard";
 
 const UsersPage = () => {
   const [userList, setUserList] = useState([]);

@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
-import HeroCard from "../components/UserCard/HeroCard";
-import "./HomePage.css";
+import ExpertCard from "../components/UserCard/ExpertCard";
+import "./Style/HomePage.css";
 import { EXPERTS, SERVICES } from "../Data/Constants";
-import "./EventsPage.css";
-import "./ExpertsPage.css";
+import "./Style/ExpertsPage.css";
 import ServiceCard from "../components/UserCard/ServiceCard";
 
 const ExpertsPage = () => {
@@ -75,7 +74,7 @@ const ExpertsPage = () => {
           <div className="expert-wrapper-feature">Featured Experts</div>
           <div className="expert-flex">
             {EXPERTS.map((data, key) => {
-              return <HeroCard key={key} heroData={data} />;
+              return <ExpertCard key={key} heroData={data} />;
             })}
           </div>
         </div>
@@ -93,7 +92,7 @@ const ExpertsPage = () => {
           <div className="expert-wrapper-feature">Recently Viewed</div>
           <div className="expert-flex">
             {EXPERTS.map((data, key) => {
-              return <HeroCard key={key} heroData={data} />;
+              return <ExpertCard key={key} heroData={data} />;
             })}
           </div>
         </div>

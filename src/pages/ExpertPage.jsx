@@ -5,13 +5,7 @@ import BadgeExpert from "../components/Categories/Badges/BadgeExpert";
 import BadgeMentor from "../components/Categories/Badges/BadgeMentor";
 import BadgeFacilitator from "../components/Categories/Badges/BadgeFacilitator";
 import BadgeKeynote from "../components/Categories/Badges/BadgeKeynote";
-import "./ExpertPage.css";
-import HeroAge from "../components/Filters/Hero/HeroAge";
-import HasYellowCard from "../components/Filters/Hero/HasYellowCard";
-import HasBlueCard from "../components/Filters/Hero/HasBlueCard";
-import IsVirtual from "../components/Filters/Hero/IsVirtual";
-import IsPaidPreferred from "../components/Filters/Hero/IsPaidPreferred";
-import HasDisability from "../components/Filters/Hero/HasDisability";
+import "./Style/ExpertPage.css";
 
 const ExpertPage = () => {
   const initialHeroData = {
@@ -83,19 +77,11 @@ const ExpertPage = () => {
             <BadgeEnthusiast heroData={heroData} />
           </div>
           <h4>A bit of data on {heroData.first_name}</h4>
-          <p>
-            Turns <HeroAge heroData={heroData} /> years old this year
-          </p>
           <p>Lives in {heroData.hero_location}</p>
           <p>Identifies as {heroData.gender}</p>
           <p>Preferred pronouns are {heroData.pref_pronoun}</p>
           <p>Recognises culture as {heroData.culture}</p>
           <p>Speaks {heroData.hero_language}</p>
-          <HasDisability heroData={heroData} />
-          <HasBlueCard heroData={heroData} />
-          <HasYellowCard heroData={heroData} />
-          <IsVirtual heroData={heroData} />
-          <IsPaidPreferred heroData={heroData} />
         </div>
       </div>
     </div>

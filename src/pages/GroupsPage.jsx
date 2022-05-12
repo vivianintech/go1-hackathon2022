@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import HostCard from "../components/UserCard/HostCard";
-import "./EventsPage.css";
+import HostCard from "../components/UserCard/deprecated/HostCard";
 
-const HostsPage = () => {
+const GroupPage = () => {
   const [hostList, setHostList] = useState([]);
 
   useEffect(() => {
@@ -45,4 +44,4 @@ const HostsPage = () => {
   );
 };
 
-export default HostsPage;
+export default GroupPage;

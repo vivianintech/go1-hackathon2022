@@ -1,5 +1,5 @@
 import React from "react";
-import BecomeHeroForm from "../components/Forms/BecomeHeroForm";
+import BecomeHeroForm from "../../components/Forms/BecomeHeroForm";
 
 const BecomeHeroPage = () => {
   return <BecomeHeroForm />;

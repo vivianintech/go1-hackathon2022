@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Carousel from "react-elastic-carousel";
-import HeroCard from "./HeroCard";
-import "./HeroCarousel.css";
+import ExpertCard from "./ExpertCard";
+import "./Style/HeroCarousel.css";
 
 const HeroCarousel = () => {
   const [heroList, setHeroList] = useState([]);
@@ -27,7 +27,7 @@ const HeroCarousel = () => {
       <Carousel itemsToShow={2}>
         {heroList.map(heroData => (
           <div key={heroData.id}>
-            <HeroCard heroData={heroData} />
+            <ExpertCard heroData={heroData} />
           </div>
         ))}
       </Carousel>
