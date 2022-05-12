@@ -8,6 +8,8 @@ import {
   View,
 } from "@go1d/go1d";
 import { EXPERTS } from "../../Data/Constants";
+import IconVideo from "@go1d/go1d/build/components/Icons/Video";
+import IconCalendar from "@go1d/go1d/build/components/Icons/Calendar";
 
 const ExpertTopDesc = () => {
   const { colors } = useContext(Theme);
@@ -31,7 +33,7 @@ const ExpertTopDesc = () => {
         maxWidth="75%"
       >
         <View id="expert-top-title" color={colors.successLow}>
-          <Text fontFamily={"Victor Serif"}>{initialData.role}</Text>
+          <Text>{initialData.role}</Text>
         </View>
 
         <View id="expert-top-name" color={colors.successLowest} marginY={4}>
@@ -51,12 +53,18 @@ const ExpertTopDesc = () => {
           marginY={6}
           width="40%"
         >
-          <ButtonFilled color="accent" marginRight={4}>
-            <Text fontSize={0}>Record Your Intro</Text>
+          <ButtonFilled color="accent" marginRight={4} width="55%">
+            <View display={"flex"} flexDirection="row">
+              <IconVideo marginRight={3} />
+              <Text fontSize={0}>Record Your Intro</Text>
+            </View>
           </ButtonFilled>
 
           <ButtonFilled>
-            <Text fontSize={0}>My availability</Text>
+            <View display={"flex"} flexDirection="row">
+              <IconCalendar marginRight={3} />
+              <Text fontSize={0}>My availability</Text>
+            </View>
           </ButtonFilled>
 
           <ButtonMinimal css={{ marginLeft: "-12%", marginTop: "1%" }}>
