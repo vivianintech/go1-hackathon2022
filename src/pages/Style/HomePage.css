@@ -98,7 +98,7 @@ select {
   text-decoration: none;
   color: #114954;
   font-weight: bold;
-    transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
 }
 
 .magnifying-icon a:hover {
