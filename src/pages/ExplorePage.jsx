@@ -23,30 +23,9 @@ const ExplorePage = () => {
   }, []);
 
   return (
-    <div className="page-wrapper">
-      <div className="cover_events">
-        <img
-          src="https://res.cloudinary.com/gohkt/image/upload/v1652184996/go1-hackathon/go1banner_qx7ong.jpg"
-          alt="go1-banner"
-        ></img>
-        <div class="cover-text"></div>
-        <Link className="ext-link-1" to="/newevent">
-          <button className="page-button" type="button">
-            CREATE AN EVENT
-          </button>
-        </Link>
-      </div>
-
-      <div className="page-header">
-        <EventsFilter />
-      </div>
-
-      <div className="page-main">
-        {eventList.map((eventData, key) => {
-          return <EventCard key={key} eventData={eventData} />;
-        })}
-      </div>
-    </div>
+    <a href="/experts/1">
+    <img src="https://res.cloudinary.com/dyr0u2nqe/image/upload/v1652349151/Results_page_hevxvk.png" alt="results page" style={{width: '100vw'}}/>
+    </a>
   );
 };
 

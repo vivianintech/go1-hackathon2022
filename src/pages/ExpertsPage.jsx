@@ -91,7 +91,7 @@ const ExpertsPage = () => {
                 </select>
               </div>
               <div class="magnifying-icon">
-                <a href="/experts">
+                <a href="/explore">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
               </div>
