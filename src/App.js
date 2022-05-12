@@ -1,7 +1,6 @@
 // test
 import React from "react";
 import "./App.css";
-import { globalCSS } from "@go1d/go1d";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
 import AboutPage from "./pages/AboutPage";
@@ -14,8 +13,6 @@ import SignUpPage from "./pages/SignUpPage";
 import SignInPage from "./pages/SignInPage";
 import HomePage from "./pages/HomePage";
 import Footer from "./components/Nav/Footer";
-
-globalCSS();
 
 function App() {
   return (
