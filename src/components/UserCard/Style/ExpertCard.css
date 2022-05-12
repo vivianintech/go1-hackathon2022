@@ -92,9 +92,12 @@
 }
 
 .wrapper-nobackground img {
-  width: 120px;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+
 }
 
 .wrapper-nobackground {
-  margin-left: 4%;
+
 }

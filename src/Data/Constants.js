@@ -89,32 +89,37 @@ export const EXPERTS = [
 export const SERVICES = [
   {
     id: 1,
-    name: "Mentoring",
+    name: "Mentors",
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652185002/go1-hackathon/go1logo_g9voma.png",
+      "https://res.cloudinary.com/dyr0u2nqe/image/upload/v1652335124/Group_dq2mal.png",
+    color: "#5468B8",
   },
   {
     id: 2,
-    name: "Coaching",
+    name: "Coaches",
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652185002/go1-hackathon/go1logo_g9voma.png",
+      "https://res.cloudinary.com/dyr0u2nqe/image/upload/v1652335137/Group_boynmk.png",
+    color: "#3C8563",
   },
   {
     id: 3,
-    name: "Networking",
+    name: "Network",
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652185002/go1-hackathon/go1logo_g9voma.png",
+      "https://res.cloudinary.com/dyr0u2nqe/image/upload/v1652335147/Group_vvyaup.png",
+    color: "#FF7961"
   },
   {
     id: 4,
-    name: "Speaking",
+    name: "Speakers",
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652185002/go1-hackathon/go1logo_g9voma.png",
+      "https://res.cloudinary.com/dyr0u2nqe/image/upload/v1652335155/Group_hljkjd.png",
+    color:"#F0B064"
   },
   {
     id: 5,
-    name: "Teaching",
+    name: "Teachers",
     image:
-      "https://res.cloudinary.com/gohkt/image/upload/v1652185002/go1-hackathon/go1logo_g9voma.png",
+      "https://res.cloudinary.com/dyr0u2nqe/image/upload/v1652335167/Group_kc6z7z.png",
+      color: "#8DC2EB"
   },
 ];
