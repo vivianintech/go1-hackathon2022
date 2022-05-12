@@ -20,7 +20,7 @@ const SignInForm = () => {
   const history = useHistory();
 
   const handleSubmit = useCallback(() => {
-    history.push("/heroes");
+    history.push("/experts");
   }, [history]);
 
   return (

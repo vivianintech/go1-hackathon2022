@@ -3,10 +3,10 @@ import HeroCard from "../components/UserCard/HeroCard";
 import "./HomePage.css";
 import { EXPERTS, SERVICES } from "../Data/Constants";
 import "./EventsPage.css";
-import "./HeroesPage.css";
+import "./ExpertsPage.css";
 import ServiceCard from "../components/UserCard/ServiceCard";
 
-const HeroesPage = () => {
+const ExpertsPage = () => {
   const [heroList, setHeroList] = useState([]);
 
   useEffect(() => {
@@ -62,7 +62,9 @@ const HeroesPage = () => {
               </select>
             </div>
             <div class="magnifying-icon">
-              <a href="/heroes"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="/experts">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -100,4 +102,4 @@ const HeroesPage = () => {
   );
 };
 
-export default HeroesPage;
+export default ExpertsPage;

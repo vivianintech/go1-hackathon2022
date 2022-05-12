@@ -21,8 +21,8 @@ import VeryLargeEventsPage from "./pages/VeryLargeEventsPage";
 import HugeEventsPage from "./pages/HugeEventsPage";
 import UserPage from "./pages/UserPage";
 import UsersPage from "./pages/UsersPage";
-import HeroPage from "./pages/HeroPage";
-import HeroesPage from "./pages/HeroesPage";
+import ExpertPage from "./pages/ExpertPage";
+import ExpertsPage from "./pages/ExpertsPage";
 import HostPage from "./pages/HostPage";
 import HostsPage from "./pages/HostsPage";
 import SignUpPage from "./pages/SignUpPage";
@@ -97,12 +97,12 @@ function App() {
           <Route path="/users">
             <UsersPage />
           </Route>
-          <Route path="/hero/:id">
-            <HeroPage />
+          <Route path="/experts/:id">
+            <ExpertPage />
           </Route>
-          <Route path="/heroes">
-            <Nav afterSignedIn={true}/>
-            <HeroesPage />
+          <Route path="/experts">
+            <Nav afterSignedIn={true} />
+            <ExpertsPage />
           </Route>
           <Route path="/host/:id">
             <HostPage />
@@ -117,7 +117,7 @@ function App() {
             <BecomeHostPage />
           </Route>
           <Route path="/signup">
-             <Nav />
+            <Nav />
             <SignUpPage />
           </Route>
           <Route path="/signin">
