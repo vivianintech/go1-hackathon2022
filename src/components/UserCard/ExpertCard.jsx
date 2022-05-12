@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Style/ExpertCard.css";
 
-const ExpertCard = props => {
+const ExpertCard = (props) => {
   const { heroData } = props;
   const id = heroData.id;
   const name = heroData.name;
@@ -15,13 +15,13 @@ const ExpertCard = props => {
 
   return (
     <div className="hero-container">
-      <div className="price-container">
+      {/* <div className="price-container">
         <img
           src="https://res.cloudinary.com/gohkt/image/upload/v1652264024/go1-hackathon/Bitcoin_swhflc.svg"
           alt="go1coin"
         />
         <div id="price">{price} GoCoins</div>
-      </div>
+      </div> */}
 
       <Link className="hero-link" to={`/experts/${id}`}>
         <div className="expert-container">
@@ -35,21 +35,23 @@ const ExpertCard = props => {
 
           <div className="expertThumbType">
             <div id="expertThumbUp">
-              <IconThumbsUpActive />
+              <i class="fa-brands fa-bitcoin"></i> {price} GoCoins
             </div>
-            <button className="btnExpert">{type}</button>
+
           </div>
         </div>
 
         <div className="expert-text">
           <div id="expert-name">
-            <p>{name}</p>
+            <p style={{margin: 0}}>{name}</p>
+            {type &&
+            <button className="btnExpert">{type}</button>}
           </div>
           <div id="expert-role">
-            <p>{role}</p>
+            <p style={{margin: 0, paddingTop: 6}}>{role}</p>
           </div>
           <div id="expert-company">
-            <p>{company}</p>
+            <p style={{margin: 0, paddingTop: 6}}>{company}</p>
           </div>
         </div>
       </Link>

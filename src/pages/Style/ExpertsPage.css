@@ -1,27 +1,31 @@
 .expert-wrapper-container {
-  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #E6E9EA;
+  margin-top: 32px;
 }
 .expert-wrapper {
   display: flex;
   flex-direction: column;
+    margin-left: 32px;
 }
 
 .expert-flex {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content:flex-start;
 }
 
 .expert-wrapper-feature {
-  padding-left: 17.5%;
-  padding-bottom: 2%;
-  padding-top: 5%;
+  margin-top: 48px;
   font-size: large;
   font-weight: bold;
+  color: #114954;
 }
 
 .expert-service {
+    margin-top: 16px;
   display: flex;
   flex-direction: row;
-  margin-left: 14%;
+    flex-wrap: wrap;
 }
