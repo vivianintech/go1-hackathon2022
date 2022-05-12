@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import {ButtonFilled} from "@go1d/go1d";
 import ExpertCard from "../components/UserCard/ExpertCard";
 import "./Style/HomePage.css";
-import { EXPERTS, SERVICES } from "../Data/Constants";
+import { EXPERTS, SERVICES } from "../Data/Constantsv2";
 import "./Style/ExpertsPage.css";
 import ServiceCard from "../components/UserCard/ServiceCard";
 import IconUser from "@go1d/go1d/build/components/Icons/User";
@@ -84,7 +84,7 @@ const ExpertsPage = () => {
         <div className="expert-wrapper">
           <div className="expert-wrapper-feature">Featured Experts</div>
           <div className="expert-flex">
-            {EXPERTS.slice(0,5).map((data, key) => {
+            {EXPERTS.slice(0,4).map((data, key) => {
               return <ExpertCard key={key} heroData={data} />;
             })}
           </div>
@@ -102,7 +102,7 @@ const ExpertsPage = () => {
         <div className="expert-wrapper" style={{marginBottom: '32px'}}>
           <div className="expert-wrapper-feature">Recently Viewed</div>
           <div className="expert-flex">
-            {EXPERTS.slice(5).map((data, key) => {
+            {EXPERTS.slice(4).map((data, key) => {
               return <ExpertCard key={key} heroData={data} />;
             })}
           </div>
