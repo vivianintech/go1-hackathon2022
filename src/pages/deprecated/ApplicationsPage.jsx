@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ApplicationCard from "../components/ApplicationCard/ApplicationCard";
+import ApplicationCard from "../../components/ApplicationCard/ApplicationCard";
 
 const ApplicationsPage = () => {
   const [applicationList, setApplicationList] = useState([]);

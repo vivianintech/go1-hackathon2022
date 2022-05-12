@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import EventCarousel from "../components/EventCard/EventCarousel";
 import HeroCarousel from "../components/UserCard/HeroCarousel";
 import HostCarousel from "../components/UserCard/HostCarousel";
-import "./HomePage.css";
+import "./Style/HomePage.css";
 
 const HomePage = () => {
   return (

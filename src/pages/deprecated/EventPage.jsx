@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import EventRating from "../components/Filters/Reviews/EventRating";
-import IsEventHost from "../components/Filters/Users/IsEventHost";
-import SkillsKeynote from "../components/EventCard/SkillsKeynote";
-import SkillsFacilitator from "../components/EventCard/SkillsFacilitator";
-import SkillsMentor from "../components/EventCard/SkillsMentor";
-import SkillsExpert from "../components/EventCard/SkillsExpert";
-import SkillsEnthusiast from "../components/EventCard/SkillsEnthusiast";
-import PaidProbono from "../components/EventCard/PaidProbono";
-import EventSize from "../components/EventCard/EventSize";
+import EventRating from "../../components/Filters/Reviews/EventRating";
+import IsEventHost from "../../components/Filters/Users/IsEventHost";
+import SkillsKeynote from "../../components/EventCard/SkillsKeynote";
+import SkillsFacilitator from "../../components/EventCard/SkillsFacilitator";
+import SkillsMentor from "../../components/EventCard/SkillsMentor";
+import SkillsExpert from "../../components/EventCard/SkillsExpert";
+import SkillsEnthusiast from "../../components/EventCard/SkillsEnthusiast";
+import PaidProbono from "../../components/EventCard/PaidProbono";
+import EventSize from "../../components/EventCard/EventSize";
 import "./EventPage.css";
 
 const EventPage = () => {

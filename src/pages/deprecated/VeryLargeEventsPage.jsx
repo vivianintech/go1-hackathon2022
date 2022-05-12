@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import EventCard from "../components/EventCard/EventCard";
-import EventsFilter from "../components/Nav/EventsFilter";
+import EventCard from "../../components/EventCard/EventCard";
+import EventsFilter from "../../components/Nav/EventsFilter";
 
 const EventsPage = () => {
   const [eventList, setEventList] = useState([]);
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_API_URL}events/facilitator/`, {
+    fetch(`${process.env.REACT_APP_API_URL}events/verylarge/`, {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",

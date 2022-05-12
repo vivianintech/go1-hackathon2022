@@ -1,9 +1,9 @@
 import IconThumbsUpActive from "@go1d/go1d/build/components/Icons/ThumbUpFilled";
 import React from "react";
 import { Link } from "react-router-dom";
-import "./HeroCard.css";
+import "./Style/ExpertCard.css";
 
-const HeroCard = props => {
+const ExpertCard = props => {
   const { heroData } = props;
   const id = heroData.id;
   const name = heroData.name;
@@ -57,4 +57,4 @@ const HeroCard = props => {
   );
 };
 
-export default HeroCard;
+export default ExpertCard;

@@ -1,5 +1,5 @@
 import React from "react";
-import SignOutForm from "../components/Forms/SignOutForm";
+import SignOutForm from "../../components/Forms/SignOutForm";
 
 const SignOutPage = () => {
   return (

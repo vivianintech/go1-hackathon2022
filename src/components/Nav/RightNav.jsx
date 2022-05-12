@@ -7,10 +7,10 @@ const RightNav = () => {
       <Link to="/">
         <i class="fa-solid fa-house-chimney"></i> Home
       </Link>
-      <Link to="/events">
+      <Link to="/explore">
         <i class="fa-solid fa-compass"></i> Explore
       </Link>
-      <Link to="/hosts">
+      <Link to="/groups">
         <i class="fa-solid fa-user-group"></i> Groups
       </Link>
       <Link to="/experts">

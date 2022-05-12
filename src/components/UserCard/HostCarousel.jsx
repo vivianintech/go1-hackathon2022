@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Carousel from "react-elastic-carousel";
-import HostCard from "./HostCard";
-import "./HostCarousel.css";
+import HostCard from "./deprecated/HostCard";
+import "./Style/HostCarousel.css";
 
 const HostCarousel = () => {
   const [hostList, setHostList] = useState([]);
