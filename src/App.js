@@ -23,7 +23,6 @@ function App() {
             <AboutPage />
           </Route>
           <Route path="/explore" exact>
-            <Nav />
             <ExplorePage />
           </Route>
           <Route path="/groups">
@@ -37,6 +36,7 @@ function App() {
           <Route path="/experts">
             <Nav afterSignedIn={true} />
             <ExpertsPage />
+            <Footer />
           </Route>
           <Route path="/signup">
             <Nav />
@@ -53,7 +53,6 @@ function App() {
           <Route component={NotFound}></Route>
         </Switch>
       </div>
-      <Footer />
     </Router>
   );
 }
