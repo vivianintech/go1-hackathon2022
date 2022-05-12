@@ -9,10 +9,10 @@ const ServiceCard = props => {
   const image = services.image;
   const color = services.color
   return (
-    <div className="wrapper-nobackground" style={{backgroundColor: `${color}`}}>
-      <Link className="service-wrapper" to={`/service/${id}`}>
+    <div className="wrapper-nobackground">
+      <Link className="service-wrapper" style={{backgroundColor: `${color}`}} to={`/service/${id}`}>
         <img src={image} alt="service" />
-        <div style={{ textAlign: "center" }}>{name}</div>
+        <div style={{ textAlign: "center", color: "white", fontSize: "20px" }}>{name}</div>
       </Link>
     </div>
   );

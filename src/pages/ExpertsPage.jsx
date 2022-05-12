@@ -99,7 +99,7 @@ const ExpertsPage = () => {
           </div>
         </div>
 
-        <div className="expert-wrapper">
+        <div className="expert-wrapper" style={{marginBottom: '32px'}}>
           <div className="expert-wrapper-feature">Recently Viewed</div>
           <div className="expert-flex">
             {EXPERTS.slice(5).map((data, key) => {

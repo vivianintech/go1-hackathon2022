@@ -98,6 +98,12 @@
 
 }
 
-.wrapper-nobackground {
 
+
+.service-wrapper{
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  border-radius: 16px;
+  margin-right: 32px;
 }

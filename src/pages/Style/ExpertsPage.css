@@ -24,7 +24,7 @@
 }
 
 .expert-service {
+    margin-top: 16px;
   display: flex;
   flex-direction: row;
-  margin-left: 14%;
 }
