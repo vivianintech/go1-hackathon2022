@@ -85,10 +85,12 @@
 }
 
 #expertThumbUp {
-  margin-left: 16px;
+  margin-left: 32px;
   padding: 4px;
   border-radius: 4px;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .wrapper-nobackground img {
